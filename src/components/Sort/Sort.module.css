@@ -1,0 +1,42 @@
+.sort span:nth-child(1){
+    font-weight: bold;
+    font-size: 14px;
+}
+.sort span:nth-child(2){
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+}
+.sort img{
+    margin-left: 8px;
+}
+
+.menu{
+    width: 145px;
+    height: 114px;  
+    background: #E7E7E7;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: right;
+    position: absolute;
+    left: 100px;
+}
+.menu p{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.container{
+    position: relative;
+}
+
+.menu p:hover{
+    font-weight: bold;
+}
+.sort{
+    width: 250px;
+    display: flex;;
+    justify-content: right;
+}

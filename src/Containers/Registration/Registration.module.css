@@ -1,0 +1,47 @@
+.back{
+    background: #D3D3D3;
+    border-radius: 30px;
+    width: 210px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9C9C9C;
+    font-size: 16px;
+    margin-bottom: 36px;
+}
+
+.registr{
+    max-width: 1140px;
+    margin: auto;
+}
+.registr_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background: #CBE4D5;
+    border-radius: 30px;
+    padding: 50px;
+}
+form input{
+    font-size: 20px;
+    padding: 0px 5px;
+}
+.submit button{
+    width: 387px;
+    height: 78px;
+    background: #51A3C7;
+    border-radius: 40px;
+    font-size: 24px;
+    color: #ffff;
+}
+.submit{
+    margin-top: 50px;
+}

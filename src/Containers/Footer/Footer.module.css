@@ -1,0 +1,29 @@
+.footer{
+    background-color: #ACACAC;
+    font-size: 11px;
+    padding: 20px 0px;
+    position: absolute;
+    left: 0;
+    bottom:-120px;
+    width: 100%;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right__item{
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: auto;
+}
+.contacts{
+    font-size: 14px;
+    margin-bottom: 12px;
+}

@@ -1,0 +1,19 @@
+
+button{
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+.menu__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.close img{
+    width: 45px;
+}
+.open{
+    width: 120px;
+}

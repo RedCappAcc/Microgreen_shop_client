@@ -1,0 +1,41 @@
+.pagination{
+    max-width: 1140px;
+    margin: auto;
+}
+.container{
+    display: flex;
+}
+.btn{
+    width: 47px;
+    height: 31px;
+    border-radius: 12px;
+    font-size: 16px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.arrow img:first-child{
+    margin-right: 10px;
+}
+.arrow img:last-child{
+    margin-left: 10px;
+}
+.buttons{
+    margin: 0px 10px;
+}
+
+.active{
+    background-color: #D3D3D3;
+    width: 47px;
+    height: 31px;
+    border-radius: 12px;
+    font-size: 16px;
+    margin: 0px 5px;
+    cursor: pointer;
+}

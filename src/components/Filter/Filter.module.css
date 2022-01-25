@@ -1,0 +1,38 @@
+.filter{
+    display: flex;
+}
+.filter__item{
+    background: #D3D3D3;
+    border-radius: 80px;
+    width: 136px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 21px;
+    cursor: pointer;
+}
+.filter__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter__item:first-child{
+    width: 81px;
+}
+
+.active{
+    background-color: #282828;
+    border-radius: 80px;
+    width: 136px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 21px;
+    color: white;
+    cursor: pointer;
+}
+.active:first-child{
+    width: 81px;
+}

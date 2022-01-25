@@ -1,0 +1,21 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    position: fixed;
+    font-size: 20px;
+    top: -200px;
+    left: 46%;
+    transition: 1s;
+    background-color: red;
+}
+.menu a{
+    margin: 10px;
+    width: 100px;
+    text-decoration: none;
+    color: black;
+}
+.active{
+    transform: translateY(300px);
+    transition: 1s;
+}

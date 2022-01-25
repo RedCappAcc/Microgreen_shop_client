@@ -1,0 +1,58 @@
+.label img{
+    width: 84px;
+    height: 74px;
+    margin-right: 22px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+.plus{
+    border-radius: 50%;
+    background-color: #EA4D4D;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.minus{
+    border-radius: 50%;
+    background-color: #EA4D4D;
+    width: 32px;
+    height: 32px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.label{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+}
+
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count span{
+    margin: 0px 15px;
+}
+.price{
+    width: 80px;
+}
+.close{
+    cursor: pointer;
+}

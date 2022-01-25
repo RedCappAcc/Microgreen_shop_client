@@ -1,0 +1,62 @@
+.admin{
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 600px;
+    background-color: #CBE4D5;
+    border-radius: 30px;
+}
+
+.form{
+    font-size: 24px;
+}
+.form div{
+    margin: 30px 0px;
+}
+
+.btn{
+    background: #51A3C7;
+    border-radius: 40px;
+    color: white;
+    width: 170px;
+    height: 40px;
+    font-size: 26px;
+
+}
+.head{
+    font-size: 36px;
+    font-weight: bold;
+}
+input{
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border:none;
+    width: 400px;
+}
+.inp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+textarea{
+    resize: vertical;
+    border: none;
+    width: 400px;
+    height: 100px;
+}
+
+.inp select{
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+}

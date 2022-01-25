@@ -1,0 +1,49 @@
+.contacts{
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 100px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our_contacts{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.email{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.social{
+    display: flex;
+    margin-top: 15px;
+}
+.social__item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.numbers img{
+    margin-right: 10px;
+}
+.email img{
+    margin-right: 10px;
+}
+
+.social__item:nth-child(1){
+    margin-right: 80px;
+}
+.social__item:nth-child(2){
+    margin-right: 80px;
+}

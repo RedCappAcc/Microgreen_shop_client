@@ -1,0 +1,121 @@
+.profileBody{
+    background: #C4C4C4;
+    border-radius: 18px;;
+    position: absolute;
+    top:80px;
+    width: 140px;
+    height: 85px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: none;
+}
+
+.basket{
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+.logout{
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+.auth{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.auth img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.profile{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+.basket img{
+    margin-right: 10px;
+    width: 22px;
+}
+
+.logout img{
+    margin-right: 10px;
+    width: 22px;
+}
+
+.active{
+    display: flex;
+}
+
+.registration{
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    margin-top: 5px;
+}
+
+.registration img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+
+.registration:hover{
+    font-weight: bold;
+}
+
+.auth:hover{
+    font-weight: bold;
+}
+
+.profile:hover{
+    font-weight: bold;
+}
+
+.basket:hover{
+    font-weight: bold;
+}
+
+.logout:hover{
+    font-weight: bold;
+}

@@ -148,7 +148,7 @@ function Basket (){
                     </div>
                     <div className={cls.btns}>
                         <div className={cls.back} onClick ={()=>{navigate('/shop')}}><button>Вернуться назад</button></div>
-                        <div className={cls.buy} onAuxClick={()=>{navigate()}} ><button>Купить сейчас</button></div>
+                        <div className={cls.buy} onClick={()=>{navigate('/basket/buy')}} ><button>Купить сейчас</button></div>
                     </div>
                 </div>
             </div>

@@ -18,6 +18,7 @@ import Profile from './Containers/Profile/Profile'
 import Basket from './Containers/Basket/Basket';
 import { transitions, positions, Provider as AlertProvider, types } from 'react-alert'
 import BuyNow from './Containers/BuyNow/BuyNow';
+import BuyBasket from './Containers/BuyBusket/BuyBusket';
 
 function App() {
   const dispatch = useDispatch()
@@ -68,6 +69,7 @@ function App() {
             <Route  path='/profile' element = { <Profile/>}/>
             <Route  path='/basket' element = { <Basket/>}/>
             <Route  path='/buynow/:id' element = { <BuyNow/>}/>
+            <Route  path='/basket/buy' element = { <BuyBasket/>}/>
           </Routes>
         <Footer/>
       </AlertProvider>

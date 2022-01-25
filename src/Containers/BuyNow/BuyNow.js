@@ -122,9 +122,11 @@ function BuyNow(){
     }
 
 
-    function buy(){
+    async function buy(){
         if(profile.name!=''&&profile.surname!=''&&profile.validEmail&&profile.phone.length===11&&profile.adress!=''){
             setFullScreenAlert([cls.alert, cls.active])
+            const historyObj = {date:new Date, order:[{count:product.count,name:product.name,price:product.price,value:product.price*product.count}],status:"AWAIT_CONF",adress:profile.adress,value:product.allPrice}
+            await axios.post(`https://microgreen-2507e-default-rtdb.europe-west1.firebasedatabase.app/history/${authId}.json`,historyObj)
         }
         else{
             alert.show('Заполните пожалуйста все поля')

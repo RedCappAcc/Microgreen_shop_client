@@ -1,0 +1,194 @@
+.buynow{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.buynow_container{
+    background: #E7E7E7;
+    border-radius: 30px;
+    max-width: 853px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    margin: 7px 0px;
+    flex-direction: row;
+}
+.surname{
+    margin: 7px 0px;
+}
+.email{
+    margin: 7px 0px;
+}
+.phone{
+    margin: 7px 0px;
+}
+
+.name img{
+    width: 84px;
+    height: 74px;
+    margin-right: 22px;
+    border-radius: 26px;
+}
+
+.label{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 54px;
+}
+.profile{
+    font-size: 18px;
+}
+.product{
+    font-size: 18px;
+}
+
+.customer{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.product{
+    margin-right: 125px;
+    margin-top: 15px;
+}
+
+
+.label_product{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.down{
+    margin-top: 20%;
+}
+
+
+.btn{
+    background: #51AE76;
+    border-radius: 30px;
+    width: 210px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn button {
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.count_label{
+    margin-right: 36px;
+}
+
+.name span{
+    min-width: 50px;
+}
+
+.pay{
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0px;
+}
+
+.pay select{
+   margin-top: 10px;
+   height: 30px;
+   font-size: 16px;
+   max-width: 265px;
+   border-radius: 5px;
+}
+.adress textarea{
+    width: 265px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.adress{
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0px;
+}
+
+.alert{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    display: none;
+}
+
+.alert_container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alert_container span{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.active{
+    display: flex;
+}
+
+.btnBack{
+    background: #D3D3D3;
+    border-radius: 30px;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #9C9C9C;
+    margin-left: 30px;
+}
+
+.btnBack button{
+    height: 45px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card p {
+    margin: 5px 5px;
+}
+
+.allprice{
+    font-size: 24px;
+    font-weight: bold;
+    margin:10px;
+}

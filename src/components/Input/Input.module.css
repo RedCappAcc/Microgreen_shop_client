@@ -18,6 +18,7 @@
     background: #F4F4F4;
     border-radius: 20px;
     margin-left: 0;
+    padding: 0px 5px;
 }
 .customInput span{
     width: 300px;

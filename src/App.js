@@ -20,6 +20,9 @@ import { transitions, positions, Provider as AlertProvider, types } from 'react-
 import BuyNow from './Containers/BuyNow/BuyNow';
 import BuyBasket from './Containers/BuyBusket/BuyBusket';
 import OrderHistory from './Containers/OrderHistory/OrderHistory';
+import EditProfile from './Containers/EditProfile/EditProfile';
+import EditEmail from './Containers/EditEmail/EditEmail';
+import EditPassword from './Containers/EditPassword/EditPassword';
 
 function App() {
   const dispatch = useDispatch()
@@ -72,6 +75,9 @@ function App() {
             <Route  path='/buynow/:id' element = { <BuyNow/>}/>
             <Route  path='/basket/buy' element = { <BuyBasket/>}/>
             <Route  path='/orderhistory' element = { <OrderHistory/>}/>
+            <Route  path='/profile/edit' element = { <EditProfile/>}/>
+            <Route  path='/profile/edit_email' element = { <EditEmail/>}/>
+            <Route  path='/profile/edit_password' element = { <EditPassword/>}/>
           </Routes>
         <Footer/>
       </AlertProvider>

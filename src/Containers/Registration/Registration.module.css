@@ -25,12 +25,12 @@
     align-items: center;
     justify-content: center;
 }
-form{
+.content form{
     background: #CBE4D5;
     border-radius: 30px;
     padding: 50px;
 }
-form input{
+.content form input{
     font-size: 20px;
     padding: 0px 5px;
 }

@@ -53,13 +53,46 @@
 .right div{
     margin: 20px 0px;
 }
-.btn{
-    background: #51A3C7;
-    border-radius: 40px;
-    width: 310px;
-    height: 50px;
-    color: #FFFFFF;
+.btns{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
+}
+.edit_profile{
+    width: 100px;
+    height: 50px;
+    background: #51C780;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+    font-size: 12px;
+}
+.edit_password{
+    width: 100px;
+    height: 50px;
+    background: #51A3C7;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+    font-size: 12px;
+}
+
+
+.edit_email{
+    width: 100px;
+    height: 50px;
+    background: #51A3C7;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+    font-size: 12px;
 }

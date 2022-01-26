@@ -5,8 +5,10 @@ import axios from 'axios'
 import {useDispatch} from 'react-redux'
 import {loadingStart,loadingEnd} from '../../store/actions/shop'
 import Load from '../../components/Load/Load'
+import {useNavigate} from 'react-router-dom'
 
 function Profile (){
+    const navigate = useNavigate()
     const authId = localStorage.getItem('authId')
     const loading = useSelector(state=>state.shopReducer.Loading)
     const dispatch = useDispatch()
@@ -31,7 +33,7 @@ function Profile (){
     return(
         <div className={cls.profile}>
             {loading?<Load/>:
-                <div className={cls.profile_container}>
+            <div className={cls.profile_container}>
                 <div className={cls.label}>Мой профиль</div>
                 <div className={cls.content}>
                     <div className={cls.left}>
@@ -47,8 +49,10 @@ function Profile (){
                         <div><span>{state.phone}</span></div>
                     </div>
                 </div>
-                <div className={cls.btn}>
-                    <button>Изменить</button>
+                <div className={cls.btns}>
+                    <div  onClick={()=>{navigate('/profile/edit')}} className={cls.edit_profile}><button>Изменить анкетные данные</button></div>
+                    <div  onClick={()=>{navigate('/profile/edit_email')}} className={cls.edit_email}><button>Изменить e-mail</button></div>
+                    <div  onClick={()=>{navigate('/profile/edit_password')}} className={cls.edit_password}><button>Изменить пароль</button></div>
                 </div>
             </div>
             }

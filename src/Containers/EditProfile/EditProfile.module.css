@@ -1,0 +1,64 @@
+.edit {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.edit .form{
+    display: flex;
+    padding: 20px;
+    background: #CBE4D5;
+    border-radius: 30px;
+}
+
+.labels{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+}
+
+.labels div{
+    margin: 5px 0px;
+}
+
+.inp input{
+    margin: 5px 0px;
+    padding: 0px 5px;
+}
+.inValid{
+    border: 1px solid red;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.save{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #51C780;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+}
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #a0a0a0;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    color: #cecece;
+}

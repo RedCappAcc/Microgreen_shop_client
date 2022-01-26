@@ -1,0 +1,82 @@
+
+.order{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.orderBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #C4C4C4;
+    border-radius: 10px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.date{
+    margin-right: 8px;
+}
+
+.allOrderPrice{
+    margin-right: 8px;
+}
+.price{
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.orderStatus{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+}
+.status{
+    background: #51C780;
+    border-radius: 8px;
+    padding: 3px;
+    margin-right: 8px;
+}
+
+.statusName{
+    margin-right: 8px;
+}
+
+.order_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.orderProducts{
+    display: none;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.product{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+.name{
+    margin-right:10px;
+    width: 200px;
+}
+
+.count{
+    width: 70px;
+    text-align: center;
+}
+
+.priceProduct{
+    width: 100px;
+    text-align: center;
+}
+.value{
+    width: 120px;
+    text-align: center;
+}
+.active{
+    display: flex;
+}

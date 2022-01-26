@@ -6,6 +6,8 @@ import {useState,useEffect} from 'react'
 import {useSelector} from 'react-redux'
 import regImg from './img/registration.png'
 import entryImg from './img/entry.png'
+import orederImg from './img/checkout.png'
+import userImg from './img/profile-user.png'
 
 function ProfileBody({profileVisable}){
     let auth = useSelector(state=>state.shopReducer.Auth)
@@ -23,9 +25,10 @@ function ProfileBody({profileVisable}){
     useEffect(()=>{
         if(auth){
             setLinkArray([
-                <NavLink className={cls.profile} key={1} to = '/profile'>Мой профиль</NavLink>,
+                <NavLink className={cls.profile} key={1} to = '/profile'><img src={userImg}/><div>Мой профиль</div></NavLink>,
+                <NavLink className={cls.basket} key={3} to = '/orderhistory'><img src={orederImg}/><div>Мои заказы</div></NavLink>,
                 <NavLink className={cls.basket} key={2} to = '/basket'><img src={basketImg}/><div>Корзина</div></NavLink>,
-                <NavLink className={cls.logout} key={3} to = '/logout'><img src={logoutImg}/><div>Выйти</div></NavLink>,
+                <NavLink className={cls.logout} key={4} to = '/logout'><img src={logoutImg}/><div>Выйти</div></NavLink>,
             ])
         }
         else{

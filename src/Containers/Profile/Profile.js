@@ -47,6 +47,9 @@ function Profile (){
                         <div><span>{state.phone}</span></div>
                     </div>
                 </div>
+                <div className={cls.btn}>
+                    <button>Изменить</button>
+                </div>
             </div>
             }
         </div>

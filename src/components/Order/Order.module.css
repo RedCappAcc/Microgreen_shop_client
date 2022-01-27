@@ -80,3 +80,35 @@
 .active{
     display: flex;
 }
+
+@media (max-width:425px) {
+    .order{
+        flex-direction: column-reverse;
+        padding: 10px 0px;
+        background: #C4C4C4;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width:375px) {
+    .order{
+        font-size: 12px;
+    }
+    .price{
+        font-size: 16px;
+    }
+    .product{
+        font-size: 12px;
+    }
+}
+@media (max-width:375px) {
+    .order{
+        font-size: 11px;
+    }
+    .price{
+        font-size: 12px;
+    }
+    .product{
+        font-size: 12px;
+    }
+}

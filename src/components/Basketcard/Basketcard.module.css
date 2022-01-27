@@ -56,3 +56,29 @@
 .close{
     cursor: pointer;
 }
+
+@media (max-width:425px) {
+    .plus{
+        width: 24px;
+        height: 24px;
+    }
+    .minus{
+        width: 24px;
+        height: 24px;
+    }
+    .plus img{
+        width: 18px;
+    }
+    .minus img{
+        width: 18px;
+    }
+    .count span{
+        margin: 5px;
+    }
+    .card{
+        font-size: 12px;
+    }
+    .label img{
+        margin-right: 5px;
+    }
+}

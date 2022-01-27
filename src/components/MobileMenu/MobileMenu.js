@@ -24,9 +24,14 @@ function MobileMenu(){
         }
     },[toggleMenu])
     return(
+        <>
+        {toggleMenu?<div className={cls.backDrop} onClick={()=>{dispatch(changeToggleMenu())}}></div>:null}
         <div className={classes.join(' ')}> 
+            <div className={cls.container}>
             {menu}
+            </div>
         </div>
+        </>
     )
 }
 

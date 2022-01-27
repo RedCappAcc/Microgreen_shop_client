@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 10px;
 }
 
 .our_contacts{
@@ -28,6 +29,8 @@
 .social{
     display: flex;
     margin-top: 15px;
+    max-width: 410px;
+    justify-content: space-between;
 }
 .social__item{
     display: flex;
@@ -41,9 +44,15 @@
     margin-right: 10px;
 }
 
-.social__item:nth-child(1){
-    margin-right: 80px;
-}
-.social__item:nth-child(2){
-    margin-right: 80px;
+
+@media(max-width:1023px){
+    .container{
+        flex-direction: column;
+    }
+    .right img{
+        width: 100%;
+    }
+    .right{
+        margin-top: 20px;
+    }
 }

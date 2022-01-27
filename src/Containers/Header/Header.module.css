@@ -8,6 +8,7 @@ header{
     font-style: normal;
     z-index: 3;
     margin: auto;
+    background-color: white;
 }
 
 .logo{
@@ -26,7 +27,6 @@ header{
 .menu{
     display: flex;
     align-items: center;
-    padding-left: 30px;
     z-index: 3;
 }
 .menu a{

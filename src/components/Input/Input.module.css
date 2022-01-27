@@ -13,7 +13,7 @@
 }
 
 .customInput input{
-    width: 370px;
+    max-width: 370px;
     height: 63px;
     background: #F4F4F4;
     border-radius: 20px;

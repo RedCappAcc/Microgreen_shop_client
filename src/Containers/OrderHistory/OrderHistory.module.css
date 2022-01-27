@@ -7,12 +7,20 @@
     background: #E7E7E7;
     border-radius: 30px;
     max-width: 853px;
-    height: 540px;
+    min-height: 540px;
     margin: auto;
     padding: 30px;
+    margin-bottom: 20px;
 }
 .label{
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .orderhistory_container{
+        padding: 10px;
+        margin: 5px;
+    }
 }

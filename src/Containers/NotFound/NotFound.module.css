@@ -1,0 +1,20 @@
+.notfound{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.notfound_body{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.label{
+    font-size: 100px;
+}
+
+.dis{
+    font-size: 36px;
+}

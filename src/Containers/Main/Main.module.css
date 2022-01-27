@@ -37,6 +37,8 @@
     font-size: 24px;
     color: white;
 }
+
+
 @media (max-width: 1023px){
     .content{
         flex-direction: column;
@@ -66,11 +68,7 @@
     .right{
         margin-top: 50px;
     }
-}
-
-@media (max-width:320) {
-    .label{
-        margin-top: 100px;
-        font-size: 20px;
+    .right img{
+        width: 100%;
     }
 }

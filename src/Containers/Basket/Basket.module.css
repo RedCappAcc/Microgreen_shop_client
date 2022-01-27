@@ -4,11 +4,12 @@
 }
 
 .basket_container{
-    max-width: 811px;
+    max-width: 1140px;
     height: 546px;
     margin: auto;
     display: flex;
     flex-direction: column;
+    margin: 0px 10px;
 }
 .clear{
     display: flex;
@@ -77,4 +78,17 @@
 .content{
     display: flex;
     flex-direction: column;
+}
+
+
+@media (max-width:425px) {
+    .basket_container{
+        font-size: 12px;
+    }
+    .btns .back{
+        width: 150px;
+    }
+    .btns .buy{
+        width: 150px;
+    }
 }

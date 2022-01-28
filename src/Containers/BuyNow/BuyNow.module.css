@@ -6,7 +6,7 @@
 .buynow_container{
     background: #E7E7E7;
     border-radius: 30px;
-    height: 600px;
+    min-height: 600px;
     margin: auto;
     display: flex;
     flex-direction: column;

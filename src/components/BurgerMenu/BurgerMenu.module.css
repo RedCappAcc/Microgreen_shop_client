@@ -12,8 +12,12 @@ button{
     align-items: center;
 }
 .close img{
-    width: 45px;
+    width: 24px;
 }
 .open{
     width: 120px;
+}
+
+.openMenu img{ 
+    width: 36px;
 }

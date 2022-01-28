@@ -15,7 +15,7 @@ function BurgerMenu(){
     return(
         <div className={cls.open}>
             {!toggleMenu?
-                <button onClick = {clickHadler}>
+                <button className={cls.openMenu} onClick = {clickHadler}> 
                     <img src={burgerMenuImg} alt = 'burger menu open'/>
                 </button> 
             :   <button className={cls.close} onClick = {clickHadler}>

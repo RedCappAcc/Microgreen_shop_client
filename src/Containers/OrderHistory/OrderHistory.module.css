@@ -1,6 +1,9 @@
 .orderhistory{
     max-width: 1140px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .orderhistory_container{
@@ -8,9 +11,10 @@
     border-radius: 30px;
     max-width: 853px;
     min-height: 540px;
-    margin: auto;
     padding: 30px;
     margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .label{
     font-weight: bold;
@@ -18,9 +22,12 @@
     margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
     .orderhistory_container{
-        padding: 10px;
+        padding: 15px;
         margin: 5px;
+    }
+    .label{
+        font-size: 20px;
     }
 }

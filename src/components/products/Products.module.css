@@ -4,4 +4,25 @@
     display: flex;
     max-width: 1140px;
     flex-wrap: wrap;
+    justify-content: start;
+    margin: auto;
+}
+
+
+
+@media (max-width:1140px) {
+    .products{
+        max-width: 855px;
+    }
+}
+
+@media (max-width:855px) {
+    .products{
+        max-width: 575px;
+    }
+}
+@media (max-width:575px) {
+    .products{
+        max-width: 300px;
+    }
 }

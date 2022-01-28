@@ -92,6 +92,7 @@
 
 .registr_label{
     margin-top: 9%;
+    margin-left: 10%;
 }
 .registr_container{
     display: flex;
@@ -124,86 +125,62 @@
         width: 100%;
     }
 }
-
-@media (max-width:425px) {
-    .authNow>div div:nth-child(2) input{
-        width: 350px;
-        margin-left: 10px;
+@media (max-width:460px) {
+    .authNow > div div input{
+        width: 95%;
+        height: 50px
     }
-    .authNow>div div:nth-child(3) input{
-        width: 350px;
-        margin-left: 10px;
+    .authNow > div div label{
+        font-size: 18px;
     }
-    .authNow>div div:nth-child(2) label{
-        margin-left: 10px;
+    .btn{
+        width: 280px;
     }
-    .authNow>div div:nth-child(3) label{
-        margin-left: 10px;
+    .registr_btn{
+        width: 280px;
     }
+    
 }
 
-@media (max-width: 400px) {
-    .auth{
-        padding: 0px 10px;
+@media (max-width:390px) {
+    .authNow > div div input{
+        width: 90%;
+        margin-left: 10px;
     }
-    .authNow__label{
-        font-size: 20px;
+    .authNow > div div label{
+        margin-left: 10px;
+        font-size: 18px;
     }
     .btn{
         width: 260px;
+        font-size: 22px;
+    }
+    .authNow__label{
+        font-size: 18px;
     }
     .registr_btn{
-        max-width: 260px;
+        width: 260px;
+        font-size: 18px;
     }
 }
 
-@media (max-width: 375px) {
-    .authNow div:nth-child(2){
-        margin-left: 40px;
+@media (max-width:360px) {
+    .authNow > div div input{
+        width: 75%;
+        margin-left: 35px;
     }
-    .auth div:nth-child(3){
-        margin-left: 40px;
+    .authNow > div div label{
+        margin-left: 35px;
     }
-    .auth{
-        margin-left: 30px;
+    .btn{
+        width: 230px;
+        font-size: 20px;
     }
-    .authNow>div div:nth-child(2) input{
-        width: 290px;
-        margin-left: 0px;
+    .authNow__label{
+        font-size: 18px;
     }
-    .authNow>div div:nth-child(3) input{
-        width: 290px;
-        margin-left: 0px;
+    .registr_btn{
+        width: 230px;
+        font-size: 18px;
     }
-    .authNow>div div:nth-child(2){
-        margin-left: 2px;
-    }
-    .authNow>div div:nth-child(3){
-        margin-left: 2px;
-    }
-}
-
-@media (max-width: 320px) {
-    .authNow div:nth-child(2){
-        margin-left: 70px;
-    }
-    .auth div:nth-child(3){
-        margin-left: 70px;
-    }
-    .auth{
-        margin-left: 30px;
-    }
-    .authNow__label span{
-        font-size: 16px;
-    }
-    .registr_label span{
-        font-size: 16px;
-    }
-    .auth form{
-        width: 330px;
-    }
-    .registr{
-        width: 330px;
-    }
-    
 }

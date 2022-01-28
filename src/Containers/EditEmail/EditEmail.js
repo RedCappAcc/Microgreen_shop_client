@@ -52,7 +52,7 @@ function EditEmail (){
             <form>
                 <div className={cls.form}>
                     <div className={cls.labels}>
-                        <div>Новый E-mail :</div>
+                        <div>Новый E-mail:</div>
                     </div>
                     <div className={cls.inp}>
                         <input className={classes.join(' ')} onChange={changeHadler}/>

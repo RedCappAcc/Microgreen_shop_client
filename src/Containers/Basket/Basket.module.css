@@ -81,7 +81,7 @@
 }
 
 
-@media (max-width:425px) {
+@media (max-width:470px) {
     .basket_container{
         font-size: 12px;
     }
@@ -91,4 +91,17 @@
     .btns .buy{
         width: 150px;
     }
+    .clear img{
+        width: 32px;
+    }
+}
+
+@media (max-width:350px) {
+    .btns .back{
+        width: 120px;
+    }
+    .btns .buy{
+        width: 120px;
+    }
+
 }

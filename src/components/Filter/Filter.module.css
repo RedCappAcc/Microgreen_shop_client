@@ -1,6 +1,11 @@
-.filter{
+.column{
     display: flex;
 }
+.filter{
+    display: flex;
+    align-items: center;
+}
+
 .filter__item{
     background: #D3D3D3;
     border-radius: 80px;
@@ -35,4 +40,94 @@
 }
 .active:first-child{
     width: 81px;
+}
+
+
+
+.mobileFilter{
+    display: flex;
+    position: relative;
+}
+.mobilefilterName{
+    display: none;
+    position: relative;
+}
+.mobileActiveCategory{
+    display: none;
+}
+.mobileCategory{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top:20px;
+    background: #D3D3D3;
+    border-radius: 14px;
+    z-index: 3;
+}
+.mobileFilter img{
+    display: none;
+}
+
+
+
+@media (max-width:1024px) {
+    .mobilefilterName{
+        display: block;
+        margin-left: 10px;
+    }
+    .mobileActiveCategory{
+        display: block;
+        margin-right: 10px;
+    }
+    .mobileFilter img{
+        display: block;
+        margin-left: 10px;
+    }
+    .mobileActiveCategory{
+        margin-right: 10px;
+        font-style: italic;
+    }
+    .mobilefilterName{
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .filter{
+        display: none;
+    }
+    .activeMobile{
+        display: flex;
+    }
+    .filter__item{
+       justify-content: flex-start;
+       height: 30px;
+       margin-left: 10px;
+    }
+    .active:first-child{
+        background: #D3D3D3;
+        width: 100%;
+        justify-content: flex-start;
+        height: 30px;
+        color: black;
+        padding-left: 10px;
+        border-radius: 14px;
+    }
+    .active{
+        background: #D3D3D3;
+        width: 100%;
+        border-radius: 0;
+        justify-content: flex-start;
+        height: 30px;
+        color: black;
+        padding-left: 10px;
+        border-radius: 14px;
+    }
+}
+
+@media (max-width:460px) {
+    .filter__head{
+        flex-direction: column;
+    }
+    .filter__head div{
+        margin: 5px 0px;
+    }
 }

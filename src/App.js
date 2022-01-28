@@ -71,9 +71,12 @@ function App() {
   return (
     <div className="App">
         <Header/>
-          <Routes>
-            {auth?authRouts:routes}
-          </Routes>
+          <div className='content'>
+            <Routes>
+              {auth?authRouts:routes}
+            </Routes>
+          </div>
+        <Footer/>
     </div>
   );
 }

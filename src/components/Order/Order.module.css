@@ -81,7 +81,7 @@
     display: flex;
 }
 
-@media (max-width:425px) {
+@media (max-width:770px) {
     .order{
         flex-direction: column-reverse;
         padding: 10px 0px;
@@ -90,25 +90,76 @@
     }
 }
 
-@media (max-width:375px) {
-    .order{
-        font-size: 12px;
+
+@media (max-width:630px) {
+    .orderProducts{
+        margin-left: 10px;
     }
-    .price{
-        font-size: 16px;
+}
+
+@media (max-width:580px) {
+    .name{
+        width: 150px;
+        font-size: 14px;
     }
-    .product{
+    .value{
+        width: 80px;
+        font-size: 14px;
+    }
+    .priceProduct{
+        width: 60px;
+        font-size: 14px;
+    }
+    .count{
+        width: 50px;
+        font-size: 14px;
+    }   
+    .product div:nth-child(3){
         font-size: 12px;
     }
 }
-@media (max-width:375px) {
-    .order{
-        font-size: 11px;
-    }
-    .price{
+
+
+@media (max-width:450px) {
+    .orderBody span{
         font-size: 12px;
     }
-    .product{
+    .orderStatus{
+        font-size: 14px;
+    }
+    .allOrderPrice{
+        font-size: 16px;
+    }
+    .name{
+        width: 110px;
         font-size: 12px;
+    }
+    .priceProduct{
+        width: 60px;
+        font-size: 12px;
+    }
+    .value{
+        width: 60px;
+        font-size: 12px;
+    }
+    .count{
+        font-size: 12px;
+        width: 30px;
+    }
+}
+
+@media (max-width:350px) {
+
+    .orderStatus{
+        font-size: 12px;
+    }
+}
+@media (max-width:342px) {
+
+    .orderStatus{
+        font-size: 12px;
+    }
+    .orderBody span:nth-child(2){
+        display: none;
     }
 }

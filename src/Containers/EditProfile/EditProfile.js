@@ -58,9 +58,9 @@ function EditProfile(){
             <form>
                 <div className={cls.form}>
                     <div className={cls.labels}>
-                        <div>Имя :</div>
-                        <div>Фамилия :</div>
-                        <div>Телефон :</div>
+                        <div>Имя:</div>
+                        <div>Фамилия:</div>
+                        <div>Телефон:</div>
                     </div>
                     <div className={cls.inp}>
                         <input value={name} onChange={(e)=>{clickHadler({type:'name',value:e.target.value})}}/>

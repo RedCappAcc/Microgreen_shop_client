@@ -79,3 +79,41 @@
 .price{
     font-size: 24px;
 }
+
+@media (max-width:890px) {
+    .btns{
+        display:flex ;
+        justify-content: space-between;
+    }
+    .content{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .content img{
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:580px) {
+    .btns button:nth-child(1){
+        width: 150px;
+    }
+    .btns button:nth-child(2){
+        width: 150px;
+    }
+}
+
+@media (max-width:380px) {
+    .btns button:nth-child(1){
+        width: 120px;
+        font-size: 14px;
+    }
+    .btns button:nth-child(2){
+        width: 120px;
+        font-size: 14px;
+    }
+}

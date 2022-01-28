@@ -71,8 +71,8 @@ function EditPassword (){
             <form>
                 <div className={cls.form}>
                     <div className={cls.labels}>
-                        <div>Старый пароль :</div>
-                        <div>Новый пароль :</div>
+                        <div>Старый пароль:</div>
+                        <div>Новый пароль:</div>
                     </div>
                     <div className={cls.inp}>
                         <input type='password' className={classesOrigin.join(' ')} onChange={changeHadlerOrigin}/>

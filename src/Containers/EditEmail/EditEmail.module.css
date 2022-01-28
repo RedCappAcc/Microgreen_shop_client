@@ -66,3 +66,56 @@
 .notValid{
     border: 2px solid red;
 }
+
+@media (max-width:590px) {
+    .inp input{
+        width: 350px;
+    }
+    .labels{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:520px) {
+    .inp input{
+        width: 300px;
+    }
+    .save{
+        font-size: 14px;
+    }
+    .back{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:470px) {
+    .inp input{
+        width: 250px;
+    }
+    .save{
+        width: 130px;
+        font-size: 12px;
+    }
+    .back{
+        width: 130px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:470px) {
+    .inp input{
+        width: 220px;
+    }
+    .labels{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:370px) {
+    .inp input{
+        width: 170px;
+    }
+    .labels{
+        font-size: 12px;
+    }
+}

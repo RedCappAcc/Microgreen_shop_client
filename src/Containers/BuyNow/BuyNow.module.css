@@ -6,12 +6,13 @@
 .buynow_container{
     background: #E7E7E7;
     border-radius: 30px;
-    max-width: 853px;
     height: 600px;
     margin: auto;
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .up{
@@ -63,6 +64,7 @@
 .product{
     margin-right: 125px;
     margin-top: 67px;
+    margin-left: 30px;
 }
 
 .count{
@@ -233,4 +235,39 @@
 
 .btnBack button{
     height: 45px;
+}
+
+@media (max-width:650px) {
+    .up{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product{
+        margin-right: 0px;
+    }
+    .alert_container{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:360px) {
+    .adress textarea{
+        width: 230px;
+    }
+    .phone input{
+        width: 130px;
+    }
+    .email input{
+        width: 153px;
+    }
+    .surname input{
+        width: 122px;
+    }
+    .name input{
+        width: 172px;
+    }
+    .label{
+        font-size: 20px;
+    }
 }

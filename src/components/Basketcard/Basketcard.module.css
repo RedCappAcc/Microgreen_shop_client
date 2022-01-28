@@ -52,6 +52,7 @@
 }
 .price{
     width: 80px;
+    margin-left: 10px;
 }
 .close{
     cursor: pointer;
@@ -81,4 +82,13 @@
     .label img{
         margin-right: 5px;
     }
+    .close img{
+        width: 50px;
+    }
+}
+
+@media (max-width:350px) {
+    .price{
+        width: 60px;
+    }   
 }

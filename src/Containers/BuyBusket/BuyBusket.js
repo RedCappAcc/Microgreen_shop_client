@@ -52,8 +52,8 @@ function BuyBasket(){
                 <div  key={index} className = {cls.card}>
                      <p>{product.data.name}</p>
                      <p>-</p>
-                     <p>{count} шт</p>
-                     <p>... {count*product.data.price}тг</p>
+                     <p>{count}шт</p>
+                     <p>...{count*product.data.price}тг</p>
                 </div>
                 )
             setOrder((prev)=>{
@@ -137,7 +137,6 @@ function BuyBasket(){
                 </div>
                 </div>
             </div>
-            <div className={cls.down}></div>
         </div>
         <div className={fullScreenAlert.join(' ')}>
             <div className={cls.alert_container}>

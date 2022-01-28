@@ -51,36 +51,69 @@
 
 }
 
-@media (max-width:425px) {
+@media (max-width:520px) {
     .content{
-        width: 410px;
-        margin-left: 20px;
-    }
-}
-@media (max-width:375px) {
-    .content{
-        width: 380px;
-        margin-left: 15px;
-    }
-    .content form div input{
-        width: 350px;
-        margin-left: 10px;
-    }
-    .content form div label{
-        margin-left: 10px;
+        width: 440px;
+        padding-top: 30px;
     }
     .submit button{
-        width: 360px;
-        margin-left: 5px;
+        width: 350px;
+        margin-left: 4%;
     }
 }
-@media (max-width:320px) {
 
+@media (max-width:470px) {
+    .content{
+        width: 420px;
+    }
+}
+
+@media (max-width:440px) {
+    .content{
+        width: 380px;
+    }
     .content form div input{
-        width: 340px;
-        margin-left: 10px;
+        width: 330px;
+        height: 40px;
     }
     .content form div label{
-        margin-left: 10px;
+        font-size: 16px;
+    }    
+    .submit button{
+        width: 300px;
+        margin-left: 6%;
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:400px) {
+    .content{
+        width: 350px;
+    }
+    .content form div input{
+        width: 300px;
+    }
+    .submit button{
+        width: 280px;
+        margin-left: 6%;
+    }
+}
+
+@media (max-width:365px) {
+    .content{
+        width: 310px;
+    }
+    .content form div input{
+        width: 270px;
+        margin-left: 3%;
+    }
+    .content form div label{
+        margin-left: 3%;
+    }
+
+    .submit button{
+        width: 260px;
+        margin-left: 6%;
     }
 }

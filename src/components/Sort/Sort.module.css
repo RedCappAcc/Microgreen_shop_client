@@ -14,7 +14,7 @@
 .menu{
     width: 145px;
     height: 114px;  
-    background: #E7E7E7;
+    background: #b1b1b1;
     border-radius: 14px;
     display: flex;
     flex-direction: column;
@@ -39,4 +39,12 @@
     width: 250px;
     display: flex;;
     justify-content: right;
+}
+
+@media (max-width:460px) {
+    .menu{
+        left: 0;
+        width: 255px;
+        height: 100px;
+    }
 }

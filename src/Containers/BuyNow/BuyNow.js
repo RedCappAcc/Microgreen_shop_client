@@ -176,7 +176,7 @@ function BuyNow(){
                         <div className={cls.down}>
                             <div className={cls.price_all}>
                             <div>Общая сумма заказа</div>
-                            <div>{product.allPrice} тг</div>
+                            <div>{product.allPrice}тг</div>
                         </div>
                         <div className={cls.btn} onClick={buy}>
                             <button>Оформить заказ</button>
@@ -184,7 +184,6 @@ function BuyNow(){
                     </div>
                     </div>
                 </div>
-                <div className={cls.down}></div>
             </div>
             <div className={fullScreenAlert.join(' ')}>
                 <div className={cls.alert_container}>

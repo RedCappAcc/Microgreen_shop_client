@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.22f5dab2.css",
+    "main.js": "/static/js/main.21fd91b5.js",
+    "static/media/контент справа.svg": "/static/media/контент справа.4593516899d2e35eadf5b16490f62b91.svg",
+    "static/media/microgreen.svg": "/static/media/microgreen.78fff84b314fa42da67ab04c4fa12a2c.svg",
+    "static/media/map.svg": "/static/media/map.6944a6034ded932280300806fec85aed.svg",
+    "static/media/empty.png": "/static/media/empty.7058000f58ca0c9a51c2.png",
+    "static/media/Персонаж.svg": "/static/media/Персонаж.5bbbc8b06998c0ec37fce45f35665329.svg",
+    "static/media/phone .svg": "/static/media/phone .729d97ce5c4f984d97bcb7a864518e88.svg",
+    "static/media/mail.svg": "/static/media/mail.dae8be5478db3eaf68b62bb49ecd9085.svg",
+    "static/media/vk.svg": "/static/media/vk.e541d49bbcf147f109b1ea706d10dddc.svg",
+    "static/media/fb.svg": "/static/media/fb.0f5cf14d46396f754ec42fb0e018100e.svg",
+    "static/media/insta.svg": "/static/media/insta.245e88c4c13f3b743743dd01ea44f91a.svg",
+    "static/media/profile logo.svg": "/static/media/profile logo.43f716c3ced8abf8a04f5f87e867c705.svg",
+    "static/media/exit.svg": "/static/media/exit.86e52d851f4966a629659e16fa03514a.svg",
+    "index.html": "/index.html",
+    "static/media/Arrow_prev.svg": "/static/media/Arrow_prev.68b1cbb3e029d930161caa15e778b6fc.svg",
+    "static/media/Arrow_next.svg": "/static/media/Arrow_next.086a7cd312cc804e91eb713e25f98c27.svg",
+    "static/media/triangle.svg": "/static/media/triangle.0319b2273188a478b17f78336ed1bf92.svg",
+    "main.22f5dab2.css.map": "/static/css/main.22f5dab2.css.map",
+    "main.21fd91b5.js.map": "/static/js/main.21fd91b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22f5dab2.css",
+    "static/js/main.21fd91b5.js"
+  ]
+}

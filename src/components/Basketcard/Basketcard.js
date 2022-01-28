@@ -17,7 +17,7 @@ function Basketcard(props){
                 <span>{props.count}</span>
                 <button className={cls.minus} onClick = {()=>{props.minus(props.id)}}><img src={ minusImg }/></button>
             </div>
-            <div className={cls.price}>{props.price} тг</div>
+            <div className={cls.price}>{props.price}тг</div>
             <button className={cls.close} onClick = {()=>{props.delete(props.id)}}><img src={closeImg} /></button>
         </div>
     )

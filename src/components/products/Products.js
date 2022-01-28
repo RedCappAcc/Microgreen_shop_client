@@ -7,6 +7,16 @@ import {useDispatch,useSelector} from 'react-redux'
 import Load from '../Load/Load'
 
 
+function getAmount(){
+    const len = window.innerWidth
+    if(len<1140&&len>854){
+        return 9
+    }
+    else{
+        return 8
+    }
+}
+
 function pagesArr (cardArr,pageCount,limit){
     let cards = {}
     let count = 0
@@ -84,7 +94,8 @@ function Products(){
         let cardLength = Object.keys(cardArr).length
         if(activeCategory==='Все'){
             let sortCardArr = sortObject(cardArr,activeSort)
-            const pages = pagesArr(sortCardArr,Math.ceil(cardLength/8),8)
+            const amount = getAmount()
+            const pages = pagesArr(sortCardArr,Math.ceil(cardLength/8),amount)
             let cardsForRender = pages[activePage-1].map((el,index)=>{
                 return(<Card id = {el} key = {index} price = {sortCardArr[el].price} imageSrc={sortCardArr[el].file} name = {sortCardArr[el].name}/>)
             })
@@ -94,7 +105,8 @@ function Products(){
         else{
             const tmp =  sortObject(filterCategory(cardArr,activeCategory),activeSort)
             let cardLength = Object.keys(tmp).length
-            const pages = pagesArr(tmp,Math.ceil(cardLength/8),8)
+            const amount = getAmount()
+            const pages = pagesArr(tmp,Math.ceil(cardLength/8),amount)
             let cardsForRender = pages[activePage-1].map((el,index)=>{
                 return(<Card id = {el} key = {index} price = {cardArr[el].price} imageSrc={cardArr[el].file} name = {cardArr[el].name}/>)
             })

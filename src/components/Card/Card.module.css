@@ -2,11 +2,8 @@
 .card{
     background: #E7E7E7;
     border-radius: 20px;
-    width: 255px;
-    height: 288px;
     display: flex;
     flex-direction: column;
-    margin: 15px;
 }
 .image{
     border-radius: 23px;
@@ -15,6 +12,9 @@
     margin-top: 13px;
     margin-bottom: 7px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .product__name{
     display: flex;
@@ -56,4 +56,18 @@
 .price{
     font-size: 20px;
     margin-right: 20px;
+}
+
+
+
+@media (max-width:1135px) {
+    .image{
+        position: relative;
+        max-height: 245px;
+    }
+    .image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }

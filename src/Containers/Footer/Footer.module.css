@@ -16,6 +16,7 @@
     flex-direction: column;
 }
 .container{
+    max-width: 1140px;
     display: flex;
     justify-content: space-between;
     margin: auto;

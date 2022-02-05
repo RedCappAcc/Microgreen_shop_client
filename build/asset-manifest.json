@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.22f5dab2.css",
-    "main.js": "/static/js/main.21fd91b5.js",
+    "main.css": "/static/css/main.9b5f3a32.css",
+    "main.js": "/static/js/main.4e56d6e6.js",
     "static/media/контент справа.svg": "/static/media/контент справа.4593516899d2e35eadf5b16490f62b91.svg",
     "static/media/microgreen.svg": "/static/media/microgreen.78fff84b314fa42da67ab04c4fa12a2c.svg",
     "static/media/map.svg": "/static/media/map.6944a6034ded932280300806fec85aed.svg",
@@ -18,11 +18,11 @@
     "static/media/Arrow_prev.svg": "/static/media/Arrow_prev.68b1cbb3e029d930161caa15e778b6fc.svg",
     "static/media/Arrow_next.svg": "/static/media/Arrow_next.086a7cd312cc804e91eb713e25f98c27.svg",
     "static/media/triangle.svg": "/static/media/triangle.0319b2273188a478b17f78336ed1bf92.svg",
-    "main.22f5dab2.css.map": "/static/css/main.22f5dab2.css.map",
-    "main.21fd91b5.js.map": "/static/js/main.21fd91b5.js.map"
+    "main.9b5f3a32.css.map": "/static/css/main.9b5f3a32.css.map",
+    "main.4e56d6e6.js.map": "/static/js/main.4e56d6e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.22f5dab2.css",
-    "static/js/main.21fd91b5.js"
+    "static/css/main.9b5f3a32.css",
+    "static/js/main.4e56d6e6.js"
   ]
 }

@@ -12,7 +12,7 @@ function Card ({imageSrc,name,price,id}){
     }
    async function addBasket(){
        if(authId){
-            try{
+            try{    
                 let response = await axios.post(`https://microgreen-2507e-default-rtdb.europe-west1.firebasedatabase.app/basket/${authId}/${id}.json`,1)
                 if(response.status===200){
                     alert.show(`Товар "${name}" добавлен в корзину`)

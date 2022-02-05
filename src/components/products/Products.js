@@ -117,9 +117,13 @@ function Products(){
         dispatch(loadingEnd())
     },[activePage,activeCategory,activeSort])
     return(
-        <div className={cls.products}>
-            {loading?<Load/>:cards}
-        </div>
+        <>
+        {loading?<Load/>
+            :<div className={cls.products}>
+                {cards}
+            </div>
+        }
+        </>
     )
 }   
 
